@@ -3,13 +3,13 @@
 ## 安装
 
 ```bash
-pnpm i react-gantt antd
+pnpm i rc-gantt-chart antd
 ```
 
 ## 使用
 
 ```javascript
-import Gantt from 'react-gantt';
+import Gantt from 'rc-gantt-chart';
     
     
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
