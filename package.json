@@ -1,9 +1,11 @@
 {
   "name": "rc-gantt-chart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "types": "./dist/index.d.ts",
   "main": "./dist/gantt.umd.cjs",
   "module": "./dist/gantt.js",
