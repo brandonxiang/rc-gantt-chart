@@ -1,4 +1,4 @@
-# 甘特图的React实现
+# rc-gantt-chart 甘特图的React实现
 
 ## 安装
 
