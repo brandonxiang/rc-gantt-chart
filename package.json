@@ -1,0 +1,40 @@
+{
+  "name": "react-gantt",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "files": ["dist"],
+  "types": "./dist/index.d.ts",
+  "main": "./dist/gantt.umd.cjs",
+  "module": "./dist/gantt.js",
+  "exports": {
+    ".": {
+      "import": "./dist/gantt.js",
+      "require": "./dist/gantt.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:demo": "vite build -c vite.dev.config.ts --outDir demo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "antd": "4.24.0",
+    "moment": "2.29.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "less": "4.1.3",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.2",
+    "@types/node": "18.11.9",
+    "vite-plugin-dts": "1.6.6"
+  }
+}
